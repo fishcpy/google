@@ -1,7 +1,8 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "http://zzz.fishcpy.us.kg:8880";//your website url
+  // let target = "http://zzz.fishcpy.us.kg:8880";//your website url
+  let target = "http://zzz.fishcpy.us.kg:5244";
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
